@@ -1,0 +1,2 @@
+src/vector.o: \
+ C:/fs3_vsd/projects/SiFive_BitNET_MCU/freedom-metal/src/vector.S

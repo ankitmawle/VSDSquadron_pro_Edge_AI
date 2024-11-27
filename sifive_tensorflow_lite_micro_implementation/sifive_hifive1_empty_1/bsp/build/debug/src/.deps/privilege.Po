@@ -1,0 +1,20 @@
+src/privilege.o: \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/src/privilege.c \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stddef.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/privilege.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stdint.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\stdint.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_default_types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\features.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_newlib_version.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_intsup.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_stdint.h
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stddef.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/privilege.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stdint.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\stdint.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_default_types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\features.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_newlib_version.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_intsup.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_stdint.h:

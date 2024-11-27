@@ -1,0 +1,4 @@
+gloss/sys_exit.o: \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/gloss/sys_exit.c \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/shutdown.h
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/shutdown.h:

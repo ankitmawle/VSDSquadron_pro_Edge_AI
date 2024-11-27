@@ -1,0 +1,2 @@
+gloss/crt0.o: \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/gloss/crt0.S

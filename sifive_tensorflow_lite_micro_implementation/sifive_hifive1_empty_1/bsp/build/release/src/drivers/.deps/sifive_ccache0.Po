@@ -1,0 +1,4 @@
+src/drivers/sifive_ccache0.o: \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/src/drivers/sifive_ccache0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

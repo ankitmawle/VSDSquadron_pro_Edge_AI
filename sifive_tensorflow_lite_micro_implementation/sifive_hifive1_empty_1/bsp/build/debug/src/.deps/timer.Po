@@ -1,0 +1,139 @@
+src/timer.o: \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/src/timer.c \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/cpu.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/interrupt.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stddef.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stdint.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\stdint.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_default_types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\features.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_newlib_version.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_intsup.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_stdint.h \
+ metal/machine.h metal/machine/platform.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/fixed-clock.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/clock.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/compiler.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/memory.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/riscv_clint0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/riscv_cpu.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/riscv_plic0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/pmp.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_local-external-interrupts0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_gpio0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/gpio.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_gpio-leds.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/led.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_pwm0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/pwm.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_rtc0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/io.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/rtc.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_spi0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/spi.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_uart0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/uart.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_wdog0.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/watchdog.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/timer.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\time.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_ansi.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\newlib-nano\newlib.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\config.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\ieeefp.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\cdefs.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_timeval.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\endian.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_endian.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\select.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_sigset.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\timespec.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_timespec.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_pthreadtypes.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\sched.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\time.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_ansi.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\reent.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\lock.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\time.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_locale.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_time.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\times.h
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/cpu.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/interrupt.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stddef.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stdint.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\stdint.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_default_types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\features.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_newlib_version.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_intsup.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_stdint.h:
+metal/machine.h:
+metal/machine/platform.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/fixed-clock.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/clock.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/compiler.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/memory.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/riscv_clint0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/riscv_cpu.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/riscv_plic0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/pmp.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_local-external-interrupts0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_gpio0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/gpio.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_gpio-leds.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/led.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_pwm0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/pwm.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_rtc0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/io.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/rtc.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_spi0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/spi.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_uart0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/uart.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_wdog0.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/watchdog.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h:
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/timer.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\time.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_ansi.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\newlib-nano\newlib.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\config.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\ieeefp.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\cdefs.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_timeval.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\endian.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_endian.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\select.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_sigset.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\timespec.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_timespec.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_pthreadtypes.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\sched.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\time.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_ansi.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\reent.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\lock.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\time.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_locale.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_time.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\times.h:

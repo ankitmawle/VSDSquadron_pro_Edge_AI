@@ -1,0 +1,30 @@
+gloss/sys_faccessat.o: \
+ C:/fs3_vsd/projects/SiFive_BitNET_MCU/freedom-metal/gloss/sys_faccessat.c \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\errno.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\errno.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\reent.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_ansi.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\newlib-nano\newlib.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_newlib_version.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\config.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\ieeefp.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\features.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stddef.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_default_types.h \
+ g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\lock.h
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\errno.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\errno.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\reent.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_ansi.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\newlib-nano\newlib.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\_newlib_version.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\config.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\ieeefp.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\features.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\lib\gcc\riscv64-unknown-elf\12.2.1\include\stddef.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\_types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\machine\_default_types.h:
+g:\vsd\fs\fs_installer\sifive\riscv64-unknown-elf-toolsuite-17.9.0-2023.10.0\riscv64-unknown-elf\include\sys\lock.h:

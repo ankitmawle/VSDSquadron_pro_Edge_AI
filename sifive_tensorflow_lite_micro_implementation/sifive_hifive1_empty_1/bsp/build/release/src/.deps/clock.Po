@@ -1,0 +1,6 @@
+src/clock.o: \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/src/clock.c \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/clock.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stddef.h
+C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/metal/clock.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stddef.h:

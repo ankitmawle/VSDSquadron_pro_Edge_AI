@@ -1,0 +1,2 @@
+src/trap.o: \
+ C:/fs3_vsd/projects/SiFive_BitNET_MCU/freedom-metal/src/trap.S

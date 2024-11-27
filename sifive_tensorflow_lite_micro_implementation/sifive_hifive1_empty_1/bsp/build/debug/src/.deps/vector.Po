@@ -1,0 +1,2 @@
+src/vector.o: \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/src/vector.S

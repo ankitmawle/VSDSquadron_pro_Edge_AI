@@ -1,0 +1,2 @@
+src/entry.o: \
+ C:/fs3_vsd/projects/SiFive_BitNET_MCU/freedom-metal/src/entry.S

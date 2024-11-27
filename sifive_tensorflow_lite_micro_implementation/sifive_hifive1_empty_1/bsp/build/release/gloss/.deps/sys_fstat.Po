@@ -1,0 +1,66 @@
+gloss/sys_fstat.o: \
+ C:/fs3_vsd/projects/sifive_hifive1_empty_1/freedom-metal/gloss/sys_fstat.c \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/errno.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/errno.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/reent.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_ansi.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/newlib-nano/newlib.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_newlib_version.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/config.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/ieeefp.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/features.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stddef.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/cdefs.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_default_types.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_types.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_types.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/lock.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/stat.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/time.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_ansi.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/time.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/types.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_stdint.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/endian.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_endian.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/select.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_sigset.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_timeval.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/timespec.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_timespec.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_pthreadtypes.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/sched.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/types.h \
+ G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_locale.h
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/errno.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/errno.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/reent.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_ansi.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/newlib-nano/newlib.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_newlib_version.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/config.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/ieeefp.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/features.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stddef.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/cdefs.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_default_types.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_types.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_types.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/lock.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/stat.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/time.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_ansi.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/time.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/types.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_stdint.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/endian.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_endian.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/select.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_sigset.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_timeval.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/timespec.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_timespec.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_pthreadtypes.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/sched.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/types.h:
+G:/vsd/FS/FS_installer/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_locale.h:

@@ -1,0 +1,2 @@
+src/scrub.o: \
+ C:/fs3_vsd/projects/SiFive_BitNET_MCU/freedom-metal/src/scrub.S
