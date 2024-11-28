@@ -55,7 +55,7 @@ This approach facilitates the prediction of models with various layer types usin
 
 
 ### Features:- 
-- Compatible with models containing all types of layers and activations.
+- Compatible with models containing all standard layers and activations supported by Tensorflow.
 - Uses TensorFlow in Python to create models and compress them into .tflite format.
 - Deploys models constrained by SRAM and flash size.
 
