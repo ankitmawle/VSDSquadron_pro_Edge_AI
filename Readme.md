@@ -1,62 +1,80 @@
-# Edge AI implementation on Sifive-hifive1 based VSDSquadron Pro
-This repo contains Deep Neural network implementation tests for 
-VSDSquadron Pro board based on SiFive-HiFive-1 FE310-G002. 
+# Edge AI Implementation on SiFive HiFive1-Based VSDSquadron Pro
+This project explores the implementation of Deep Neural Networks (DNNs) 
+on the VSDSquadron Pro board powered by the 
+SiFive-HiFive-1 FE310-G002 microcontroller. 
+
+<hr>
 
 Target Specification:- 
-- Development Board:- VSDSquadron Pro
-- IC:- Sifive FE310-G002 
-- Frequency :- 320 Mhz
-- SRAM :- 16kb
-- SPI Flash :- 32Mb
-- Architecture:- rv32imac_zicsr_zifencei
-- ToolSuit:- riscv64-unknown-elf-toolsuite-2.0.3
-- Software used- Sifive Freedom Studio
+- **Development Board**:- VSDSquadron Pro
+- **IC**:- SiFive FE310-G002 
+- **Frequency** :- 320 MHz
+- **SRAM** :- 16 kb
+- **SPI Flash** :- 32 Mb
+- **Architecture**:- rv32imac_zicsr_zifencei
+- **Tool Suit**:- riscv64-unknown-elf-toolsuite-2.0.3
+- **Software Used**- Sifive Freedom Studio
+
+<hr>
 
 ## Bitnet Implementation
-This approach can be used to compress the models to very small sizes, 
-check out MNIST Classification project example here [sifive_bit_net_implementation](./sifive_bit_net_implementation/)
+This approach leverages model compression to enable the deployment of compact models on constrained hardware like the VSDSquadron Pro.
+
 
 ### Features:- 
-- Implementaion of any dense(fully-connected) and relu layers based model can be implement using this method. 
-- uses Pytorch to generate models, 
-- self generated, or pretrained models with only dense and relu layers can be used. 
-
-### Deployent Steps:- 
-- Generate a model using [bitnetmcu_model_generation](sifive_bit_net_implementation\bitnetmcu_model_generation/BitNetMCU/)
-- copy yhe model file to [sifive bitnet mcu project source file](sifive_bit_net_implementation\SiFive_BitNET_MCU\src) 
-- update [SiFive_BitNET_MCU.c](sifive_bit_net_implementation\SiFive_BitNET_MCU\src\SiFive_BitNET_MCU.c) file to reach to correct model file
-- open the project in sifive workspace and debug using inbuilt compiler
+- Supports any model with dense (fully-connected) and ReLU layers.
+- Models can be generated using PyTorch.
+- Both self-generated and pre-trained models with dense and ReLU layers are deployable.
 
 
-### Generated Prediction output 
+### Steps for Deployment:- 
+1. Generate a model using [BitNet MCU model generation](sifive_bit_net_implementation\bitnetmcu_model_generation/BitNetMCU/)
+    - Example: An MNIST Classification project demonstrates this.
+2.	Copy the generated model file to the [source folder of the SiFive BitNet MCU project.](sifive_bit_net_implementation\SiFive_BitNET_MCU\src) 
+3.	Update the [SiFive_BitNET_MCU.c](sifive_bit_net_implementation\SiFive_BitNET_MCU\src\SiFive_BitNET_MCU.c) file to point to the correct model.
+4.	Open the project in SiFive Freedom Studio and debug using its inbuilt compiler.
+
+
+### Generated Prediction Output 
 ![prediction output](./sifive_bit_net_implementation/images/sifive_Bitnet_nist_prediction.PNG)
 
+### Example Use Case
+To classify handwritten digits (MNIST dataset), compress a dense neural network with ReLU layers using BitNet. This results in a small model deployable within the memory limits of the VSDSquadron Pro board.
 
-## Tensorflow Lite Micro implementation
-** Please not this is under development and not yet deployable
+### Real-Time Applications
+The BitNet approach focuses on compact and efficient neural network deployment, making it ideal for applications with constrained resources:
+- Wearable Devices: Fitness trackers for activity recognition and calorie counting.
+- IoT Sensors: Smart home devices with speech keyword spotting and real time Optical Character Recognizer(OCR)
+- Industrial Monitoring: Lightweight systems for detecting anomalies in equipment operations.
+<hr>
 
-This appraoch can be used to implement prediction of models with any type of layers, usinf Tensorflow lite micro library.
-check out TFLM sine wave prediction hello world example here [sifive_tensorflow_lite_micro_implementation](./sifive_tensorflow_lite_micro_implementation/) 
+## Tensorflow Lite Micro (TFLM) Implementation
+**Note**: This is under development and not yet fully deployable.
+
+This approach facilitates the prediction of models with various layer types using the TensorFlow Lite Micro library.
+
 
 ### Features:- 
-- Implementaion of any dense(fully-connected) and relu layers based model can be implement using this method.
-- uses tensorflow library in python to generate models and compress them to .tflite format for comperession
-- any type of self generated, or pretrained models can be used constrained by sram and flash size
+- Compatible with models containing all types of layers and activations.
+- Uses TensorFlow in Python to create models and compress them into .tflite format.
+- Deploys models constrained by SRAM and flash size.
 
-### On going Development phase
-We are encountering issues with toolsuit's floating point library, complete error log can be found at [error_log](./sifive_tensorflow_lite_micro_implementation/error_log.txt)
 
-### deployment steps
-- Generate your model using tensorflow library in python
-- Convert model to tflite model using [tflite-model-maker](https://ai.google.dev/edge/litert/libraries/modify)
-- generate model.cc and model.h files using [tflite_to_c.py](./sifive_tensorflow_lite_micro_implementation/tflite_to_cc.py)
-- copy the generated .cc and .h files to [project source folder](./sifive_tensorflow_lite_micro_implementation/sifive_hifive1_empty_1/src/)
-- generate micro resolver of the model using [micro_op_resolver](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/tools/gen_micro_mutable_op_resolver)
-- update [main.cpp](./sifive_tensorflow_lite_micro_implementation/sifive_hifive1_empty_1/src/main.cpp) file to to import correct model and implement correct resolver
-- copy [tflite library directory](./sifive_tensorflow_lite_micro_implementation/sifive_hifive1_empty_1/tflite/) to your project path
-- open the project in pen the project in sifive workspace update make file to resolve all imports properly in software section
+### Ongoing Development
+Current challenges include limitations in the tool suite’s floating-point library. View the complete [error log here](./sifive_tensorflow_lite_micro_implementation/error_log.txt).
 
-example make file updates:- 
+### Steps for Deployment
+1.	Generate your model using TensorFlow in Python.
+    - Example: [TFLM sine wave prediction](https://ai.google.dev/edge/litert/libraries/modify).
+2.	Convert the model to .tflite format using TensorFlow's [TFLite Model Maker](https://ai.google.dev/edge/litert/libraries/modify).
+3.	Use the [tflite_to_c.py](./sifive_tensorflow_lite_micro_implementation/tflite_to_cc.py) script to create model.cc and model.h files. 
+4.	Copy the .cc and .h files into the [project's source folder](./sifive_tensorflow_lite_micro_implementation/sifive_hifive1_empty_1/src/).
+5.	Generate a micro resolver for the model using [micro_op_resolver](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/tools/gen_micro_mutable_op_resolver).
+6. Update the [main.cpp](./sifive_tensorflow_lite_micro_implementation/sifive_hifive1_empty_1/src/main.cpp) file to import the correct model and resolver.
+7. Add the  [TensorFlow Lite library directory](./sifive_tensorflow_lite_micro_implementation/sifive_hifive1_empty_1/tflite/) to the project path.
+8.	Open the project in SiFive Freedom Studio and update the makefile to resolve imports.
+
+**Example Makefile Updates :-**
 
 ```Makefile
 ...
@@ -87,5 +105,9 @@ RISCV_LDFLAGS += -fno-rtti
 
 ```
 
-- build the project
-
+### Real-Time Applications
+Below is a snippet showcasing essential additions to the makefile:
+TFLM extends the capability to more complex models, supporting diverse layers and larger datasets, suitable for:
+- **Edge AI Cameras**: Real-time object detection and facial recognition in security systems.
+- **Healthcare Gadgets**: Devices like portable ECG or blood oxygen level monitors using AI for diagnostics.
+- **Consumer Electronics**: Voice assistants and gesture-controlled devices in smart environments.
